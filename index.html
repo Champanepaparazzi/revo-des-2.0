@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revotronics 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="logo">
+            <img src="/placeholder.svg" alt="Logo" width="150" height="50">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#event">Event</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#login">Login</a></li>
+        </ul>
+    </nav>
+
+    <main class="hero">
+        <div id="animation-container"></div>
+        <div class="hero-content">
+            <div class="hero-left">
+                <img src="hero.webp" alt="Hero Image" class="hero-image">
+            </div>
+            <div class="hero-right">
+                <h1>Revotronics 2025</h1>
+                <p>Revolution in Electronics</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">Register Now</button>
+                    <button class="btn btn-outline">Events</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Add this section after the hero section -->
+    <section class="about" id="about">
+        <div id="about-animation-container"></div>
+        <div class="about-container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-cards">
+                <div class="glass-card">
+                    <div class="card-content">
+                        <img src="REC.jpg" alt="Rajalakshmi Engineering College" class="about-image">
+                        <div class="card-text">
+                            <h3>About REC</h3>
+                            <p>Rajalakshmi Engineering College, an autonomous institution affiliated with Anna University, was established in 1997 and has grown into one of Tamil Nadu's leading engineering colleges. Committed to excellence in education, REC provides state-of-the-art facilities and focuses on holistic student development through innovative teaching methods and industry collaboration.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card">
+                    <div class="card-content reverse">
+                        <img src="ECE.jpg" alt="ECE Department" class="about-image">
+                        <div class="card-text">
+                            <h3>About ECE Department</h3>
+                            <p>The Department of Electronics and Communication Engineering at REC has been consistently delivering excellence in education since its inception. With cutting-edge laboratories, experienced faculty, and strong industry connections, we prepare students for the evolving world of technology. Our department focuses on areas like VLSI, Embedded Systems, Communication Systems, and Signal Processing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="events-page" id="Events">
+        <div id="events-animation-container"></div>
+        <h1 class="section-title">Events</h1>
+        <div class="events-grid" id="eventsGrid">
+            <!-- Event cards will be dynamically inserted here -->
+        </div>
+    </main>
+    
+
+
+
+    <script src="animation.js"></script>
+</body>
+</html>
